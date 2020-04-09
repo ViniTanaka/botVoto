@@ -1,5 +1,5 @@
 <?php
-    $nome = $_POST['nome'];
+    $nome = trim($_POST['nome']);
     $url = substr($_POST['url'], 0, -8);
     $url = $url.'formResponse';
     $votos = $_POST['qtdVotos'];
